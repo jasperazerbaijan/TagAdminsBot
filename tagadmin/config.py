@@ -3,10 +3,10 @@ import os
 
 class Config:
     LOGGER = True
-    APP_ID = int(os.environ.get("APP_ID", None))
-    API_HASH = os.environ.get("API_HASH", None)
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", None)
-    OWNER_ID = int(os.environ.get("OWNER_ID", None))
+    APP_ID = int(os.environ.get("3588368", None))
+    API_HASH = os.environ.get("3d64c47cfe8d1cb0fc2cc06f5512298e", None)
+    TG_BOT_TOKEN = os.environ.get("1696209895:AAFshFqsclUgRbeQxtpCb4Yvj15mgi2wT58", None)
+    OWNER_ID = int(os.environ.get("94008646", None))
     TMP_DIR = os.environ.get("TMP_DIR", "./TEMP/")
     CHANNEL = os.environ.get("CHANNEL", None)
     COMMAND_HAND_LER = os.environ.get("COMMAND_HAND_LER", "/")
